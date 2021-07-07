@@ -1,0 +1,133 @@
+
+
+
+
+
+/* Projects Section */
+
+.card-label {
+  font-size:3rem;
+  margin:40px;
+}
+
+
+.skills1, .skills2 {
+  letter-spacing:0.1em;
+line-height: 1.5rem;
+  margin:30px;
+  max-width: 90%;
+}
+.skills2 {
+
+  color: #fc5347;
+ 
+}
+.underline {
+  border-bottom: 2px solid rgb(149, 24, 252);
+  margin: 20px auto;
+  max-width: 90%;
+}
+.num {
+  margin: 10px;
+  padding:10px;
+}
+
+ .pro-txt{
+
+  background-color: #ff8177;
+  background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 4rem;
+  padding:40px 0;
+  margin-left:auto;
+   margin-right:auto;
+}
+.projects {
+align-items: center;
+  max-width: 1300px;
+  /* width:auto; */
+  margin: 0 auto;
+  
+  text-align: center;
+  padding: 25px;
+}
+.flex-wrap
+ {
+ display:flex;
+ flex-wrap: wrap;
+}
+
+
+ .pro-card, .pro-card2
+  {
+   
+ border: 2px solid  rgb(149, 24, 252);
+  border-radius:3%;
+  width: 35%;
+ padding: 0px;
+   margin: 80px auto;
+   height: 100%;
+   text-align: center;
+  color: #fff;
+  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  
+}
+.pro-card2
+  {
+  width:90%;
+}
+
+.card {
+  width: 30%;
+   padding: 16px;
+   text-align: center;
+ margin: 5px 10px; 
+  color: #fff;
+  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  transition: 0.3s ease-in;
+ }
+
+.pro-images {
+margin-top: 20px;
+overflow: hidden;
+padding: 20px;
+}
+
+
+/* inside box effect */
+.pro-wrap{
+  /* background-color: rgb(18, 16, 16); */
+  border-radius: 3%;
+}
+  
+.pro-card a {
+  text-decoration: none;
+}
+ .pro-card a:hover {
+background-color:papayawhip;
+}
+/*--- project detail html   ---- */
+
+  
+
+.pro-wrap2 {
+  display: inline-block;
+  text-indent:5%;
+  letter-spacing: 1px;
+  line-height: 2.5rem;
+ 
+  max-width: 100%;
+  
+   margin: 20px 0 0 0;
+  padding: 30px;
+  border-top:2px solid  rgb(149, 24, 252);
+   border-radius: 3%;
+}
+.eer li {
+  list-style-position: inside;
+  list-style-type: circle;
+}

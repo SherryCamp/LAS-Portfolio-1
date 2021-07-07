@@ -1,0 +1,86 @@
+
+
+
+
+/* About Section----------------- */
+.about {
+   display: flex;
+ flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  padding: 10rem 0;
+}
+
+
+
+
+.about-content {
+  color: #fff;
+  width: 100%;
+}
+
+.about-content h1 {
+  font-size: 2rem;
+  background-color: #fe3b6f;
+  background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
+  margin-bottom: 32px;
+}
+
+.about-content h2 {
+  margin-top:6rem;
+  font-size: 3rem;
+  background: #ff8177; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #9114ff,
+    #da22ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8f0eff,
+    #da22ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.about-content p {
+  margin-top: 1rem;
+  font-size: 2rem;
+  
+}
+
+.about-fingerprint-card {
+    width: 35%;
+     height:auto;
+   
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+margin:auto;
+  /* color: #fff;
+  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); */
+}
+ .fingerprint:hover {
+  transform: scale(1.3);
+}
+.fingerprint  {
+    top: 50%;
+    left: 50%;
+     width: 100%;
+     height:auto;
+      transition: all 2s;
+     z-index:5;
+  background-color: rgba(0, 0, 0, 0);
+  
+}
