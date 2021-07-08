@@ -113,6 +113,7 @@
 
 /* ----drop down menu non active--------*/
   .navbar-menu {
+     background: #808080 ;
     display: grid;
     grid-template-columns: auto;
     margin: 0;
@@ -127,7 +128,8 @@
 
 /* ----drop down menu active--------*/
   .navbar-menu.active {
-     background: #131313;
+    
+
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -140,7 +142,7 @@
   }
 
   #navbar-logo {
-    padding-left: 40px;
+    padding-left: 30px;
   }
 
   .navbar-toggle .bar {
@@ -148,11 +150,11 @@
     height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
-    background: papayawhip;
+    background: #ebf5ee;
   }
 
   .navbar-item {
-    background: #131313;
+    background: #13131300;
     width: 100%;
   }
 .navbar-links li {
@@ -171,7 +173,7 @@ margin-right:auto;
 
   .navbar-btn {
     padding-bottom: 2rem;
-    background: #131313;
+    background: #13131300;
   }
 
   .button {
@@ -206,23 +208,7 @@ margin-right:auto;
    margin: 0 auto;
   padding:30px;
   }
-#bottom-logo {
-  font-family: 'Tangerine', cursive;
-  font-size: 3rem;
-  letter-spacing: 2px;
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  text-decoration: none;
-  
-}
+
   
   #mobile-menu.is-active .bar:nth-child(1) {
     transform: translateY(8px) rotate(30deg);
@@ -258,7 +244,7 @@ margin-right:auto;
    margin: 80px auto;
    height: 100%;
    text-align: center;
-  color: #fff;
+  color: #ebf5ee;
 }
 
 

@@ -1,3 +1,12 @@
+  #ebf5ee  mint-cream
+secondary-color:  #808080 Gray-web
+            :   #d8bfaa    desert-sand
+            :  #bfd1e5     beau-blue
+            : #542344       dark-byzantium
+
+
+
+
 # Techdegree-Project-9-Responsive-Portfolio
 Project-9
 
