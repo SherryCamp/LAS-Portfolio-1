@@ -4,17 +4,24 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
-  
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 
 
 }
 .body {
- color: #ebf5ee;
+ background-color: #bfd1e5 ;
 }
-/*  color */
+
+html {
+  font-size:16px;
+}
+
+.main-container {
+padding-top:50px;
+padding-bottom:50px;
+}
+
 
 
 
@@ -67,11 +74,7 @@ margin: auto;
 
 
 
-/*  The nav transition highlight bar  */
-.highlight {
-  border-bottom: 4px solid rgb(132, 0, 255);
 
-}
 
 
 

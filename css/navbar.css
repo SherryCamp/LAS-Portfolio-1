@@ -1,6 +1,6 @@
 
 .navbar-container {
-
+border-bottom: 3px solid #542344;
 background-color: #808080;
   display: flex;
   justify-content: space-between;
@@ -23,11 +23,12 @@ background-color: #808080;
   position: sticky;
   top: 0;
   z-index:50;
+  
 }
 
 #navbar-logo {
   font-family: 'DM Serif Display', serif;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   letter-spacing: 2px;
  color:mintcream;
   display: flex;
@@ -61,4 +62,10 @@ background-color: #808080;
   text-decoration: none;
   height: 100%;
   transition: all 0.3s ease;
+}
+
+/*  The nav transition highlight bar  */
+.highlight {
+  border-bottom: 4px solid #d8bfaf;
+
 }
