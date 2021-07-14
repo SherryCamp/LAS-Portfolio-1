@@ -1,21 +1,7 @@
 
-.navbar-container {
-border-bottom: 3px solid #542344;
-background-color: #808080;
-  display: flex;
-  justify-content: space-between;
-  height: 80px;
-  z-index: 1;
-  width: 100%;
-  max-width:100%;
-  margin: 0 auto;
-  padding: 0 50px;
-}
-
-
 .navbar {
- 
-  height: 80px;
+ background-color: #808080;
+  min-height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,8 +9,26 @@ background-color: #808080;
   position: sticky;
   top: 0;
   z-index:50;
+  margin-bottom:40px;
+  border-bottom: 3px solid #542344;
   
 }
+
+.navbar-container {
+max-width:1300px;
+
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+
+
 
 #navbar-logo {
   font-family: 'DM Serif Display', serif;
