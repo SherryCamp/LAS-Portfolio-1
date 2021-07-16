@@ -35,14 +35,14 @@ a:hover {
 
 .btn-flex {
   justify-content: center;
-   
   display: flex;
   transition: all 2s;
   width:100%;
-   margin: 0 auto;
+   margin: 20 auto;
   padding:30px;
   
 }
+ 
 
 /* 2 transitions on same element to smooth out transition */
  .navbar-links:hover {

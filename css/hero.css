@@ -1,45 +1,46 @@
 
 /*---- Hero Section ------------*/
-.hero {
-    border: 2px solid #542344;
-  border-radius:10px;
-  padding-top: 50px;
-  margin: auto;
-  background-color: #ebf5ee;
-max-width: 1300px;
+
+.hero-title{
   
+ font-size: 2rem;
+
+}
+
+
+.hero {
+
+ border-radius:10px;
+margin: auto;
+max-width: 1300px;  
 }
 
 .hero-container {
   flex-direction: column;
-
   align-items: center;
-  
-  margin: 0 auto;
+  margin: 30px auto;
   text-align: center;
   padding: 25px;
-
-}
-
-.hero-heading {
-  font-size:3.6rem;
-  margin-bottom: 24px;
-  padding: 60px;
-}
-
-.hero-description {
-font-size: 1.5rem;
-letter-spacing: 1.5px;
-line-height:2.5rem;
 }
 
 
 
 
+ .profile-image {
+  margin:30px;
+  width: 20%;
+  height: auto;
+    border: 10px solid #54234414;
+border-radius:10px;
+  transition: all .5s;
+}
+ .profile-image:hover {
+  transform: scale(1.5) rotate(360deg);
+}
 
 .cath-grove img {
   width: 100%;
- display:none;
+ /* display:none; */
   margin: 0;
-  z-index: 0;
+  z-index: -10;
 }

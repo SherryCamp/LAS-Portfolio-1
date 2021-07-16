@@ -3,23 +3,23 @@
 
 .about {
   display:flex;
-border: 2px solid #542344;
-border-radius:10px;
+  border: 10px solid #54234414;
+
 padding: 60px;
 background-color: gray;
 
 line-height:3rem;
 max-width: 1300px;
-margin: auto;
+margin: 30px auto;
 }
 
 
 .about-container {
 float: left;
 align-items: center;
-margin: 0 auto;
+
 text-align: center;
-padding: 25px;
+
 
 }
 
@@ -28,9 +28,9 @@ padding: 25px;
 .about-title{
   display: center;
 width: 100%;
-  
+  border-bottom: 1px solid  #d8bfaa;
 font-size: 3rem;
-padding-top:60px ;
+padding-bottom:60px ;
 }
 
 
@@ -46,7 +46,8 @@ padding-top:60px ;
   
 }
 
-.about-fingerprint-card {
+  /* div .about-fingerprint-container {
+ 
   background-color: #d8bfaa;
 display:inline-flex;
 padding: 30px;
@@ -55,19 +56,20 @@ float:right;
 height:auto; 
  margin:auto;
  
-}
+}  */
  .fingerprint:hover {
   transform: scale(1.3);
 }
 .fingerprint  {
+   display:none;
   color: #808080;
-   /* top: 50%; */
-  /* left: 50%; */
+   top: 50%; 
+   left: 50%;
   width: 100%;
   height:auto;
   transition: all 2s;
   z-index:5;
   background-color: rgba(75, 30, 30, 0.002);
-  /* padding:50px; */
+  padding:50px;
   
-}
+} 
